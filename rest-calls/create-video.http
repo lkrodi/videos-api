@@ -1,5 +1,5 @@
 POST http://localhost:3000/videos HTTP/1.1
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksImlhdCI6MTYwMzA4NDE1NiwiZXhwIjoxNjA1Njc2MTU2fQ.Q11fiMxD4scbs55fIx5_JWOIAskAetILdYK1ZeB6obE
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjA5MDA3NDAwLCJleHAiOjE2MTE1OTk0MDB9.B9sTjEeE3c3FVi575HeNqVW-AvBAb9eTl4zBY2gtcvY
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
@@ -15,6 +15,6 @@ Content-Disposition: form-data; name="video"; filename="demo.mp4"
 
 {
   "video": {
-    "title": "Mi primer video"
+    "title": "Other"
   }
 }
